@@ -458,6 +458,109 @@ html.rm .stage-in{position:static;height:auto;max-height:none}
 html.rm .stlist{display:block}
 html.rm .st-cap,html.rm .st-ru{display:none}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* иллюстрации */
+.vz{margin:clamp(30px,4vw,48px) 0 0}
+.vz figcaption{margin-top:14px;font-size:15px;line-height:1.4;color:var(--grey);font-weight:600;text-align:center;text-wrap:balance}
+.dark .vz figcaption{color:#B9BDBB}
+.vz svg{display:block;width:100%;height:auto}
+.vz-c{background:#fff;border-radius:var(--r-l);padding:clamp(16px,2.6vw,30px);box-shadow:var(--sh);transition:translate .25s,box-shadow .25s}
+.vz-c:hover{translate:0 -4px;box-shadow:var(--sh2)}
+.vz-c.dk{background:var(--deep2);box-shadow:none}
+.vz-c.dk:hover{box-shadow:0 18px 44px rgba(0,0,0,.28)}
+.vz-c.pa{background:var(--paper)}
+.vz-art{position:relative}
+.vz-2c{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:clamp(20px,3vw,44px);align-items:center}
+.vz-side p{margin-top:10px}.vz-side .hl{font-weight:800}
+.vz-forms{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:clamp(21px,2.4vw,30px);font-weight:800;line-height:1.1}
+.vz-forms span{color:var(--grey);text-decoration:line-through}
+.vz-forms b{color:var(--mint-h)}
+.vz-forms .ic{width:24px;height:24px;color:var(--grey)}
+
+.vz-buds{position:absolute;left:0;right:0;top:0;height:24%}
+.vz-buds span{position:absolute;display:inline-flex;align-items:center;min-height:44px;padding:6px 18px;border-radius:18px 18px 18px 5px;font-weight:800;font-size:clamp(14px,1.55vw,21px);line-height:1.15;background:#fff;color:var(--ink);white-space:nowrap}
+.vz-buds .bu:nth-of-type(2){left:37%;top:18%;background:var(--mint);color:#fff}
+.vz-buds .bu:nth-of-type(3){left:52%;top:0}
+.vz-buds .bu:nth-of-type(4){left:64.5%;top:30%;background:var(--yellow);color:var(--ink)}
+.vz-buds .th{left:3%;top:30%;background:var(--slate);color:#fff;font-weight:700;border-radius:18px;white-space:normal;max-width:30%}
+
+.vz-droprow{display:grid;grid-template-columns:minmax(0,1fr) clamp(130px,17vw,220px);gap:clamp(18px,3vw,44px);align-items:center}
+.vz-rows{display:grid;gap:clamp(7px,1vw,11px)}
+.vz-dr{display:grid;grid-template-columns:minmax(0,1fr) 138px;gap:14px;align-items:center}
+.vz-dr b{font-size:17px;font-weight:800;white-space:nowrap}
+.vz-grid{display:grid;grid-template-columns:repeat(13,minmax(0,1fr));gap:clamp(2px,.45vw,6px)}
+.vz-lc{display:flex;align-items:center;justify-content:center;aspect-ratio:1/1.16;border-radius:7px;font-weight:800;font-size:clamp(14px,1.9vw,25px);line-height:1}
+.vz-lc.x{background:transparent;color:#C2C7C4;box-shadow:inset 0 0 0 1.5px var(--line)}
+
+.vz-cl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:end}
+.vz-p{background:#fff;border-radius:var(--r-l);padding:24px 22px;box-shadow:var(--sh);transition:translate .25s,box-shadow .25s;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px}
+.vz-p:hover{translate:0 -4px;box-shadow:var(--sh2)}
+.vz-p svg{flex:none}
+.vz-p.p1{color:var(--mint-t)}.vz-p.p1 svg{width:clamp(150px,18vw,210px)}
+.vz-p.p2{color:#E7EEF3}.vz-p.p2 svg{width:clamp(120px,14vw,168px)}
+.vz-p.p3{color:#EEF0EF}.vz-p.p3 svg{width:clamp(92px,11vw,126px)}
+.vz-p .tx{color:var(--ink);width:100%;display:flex;flex-direction:column;align-items:center;gap:3px}
+.vz-p b{font-size:clamp(19px,2vw,24px);font-weight:800;line-height:1.15}
+.vz-p span{font-size:15px;color:var(--grey)}
+.vz-p i{display:block;height:8px;border-radius:4px;background:var(--mint);margin-top:9px;transform-origin:50% 50%}
+.vz-p.p2 i{background:var(--slate)}.vz-p.p3 i{background:var(--ink)}
+
+.vz-bt{position:absolute;width:8.86%;aspect-ratio:1;display:flex;align-items:center;justify-content:center;border-radius:12%;font-weight:800;font-size:clamp(17px,3vw,38px);line-height:1}
+.vz-bt.strong{box-shadow:0 0 0 3px var(--ink)}
+
+.vz-gl-in{display:grid;grid-template-columns:clamp(120px,15vw,190px) minmax(0,1fr);gap:clamp(16px,3vw,40px);align-items:center}
+.vz-grs{display:grid;gap:12px}
+.vz-gr{display:flex;align-items:center;gap:0;flex-wrap:wrap;row-gap:6px;font-size:clamp(17px,2vw,22px);font-weight:800;line-height:1.2}
+.vz-gr .tk{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:50px;padding:0 13px;border-radius:9px}
+.vz-gr .gl{width:18px;height:18px;border-radius:50%;background:var(--yellow);margin:0 -5px;position:relative;z-index:1;flex:none}
+.vz-gr .sp{display:inline-flex;width:40px;justify-content:center;color:var(--grey);flex:none}
+.vz-gr .sp .ic{width:20px;height:20px}
+.vz-gr>.ic{width:22px;height:22px;margin:0 12px;color:var(--grey);flex:none}
+.vz-gr .ru{margin-left:12px;font-size:15px;font-weight:600;color:var(--grey)}
+.vz-gr.no b{color:var(--grey)}
+
+.vz-prs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.vz-pp{background:#fff;border-radius:var(--r-l);box-shadow:var(--sh);padding:22px 18px;text-align:center;transition:translate .25s,box-shadow .25s}
+.vz-pp:hover{translate:0 -4px;box-shadow:var(--sh2)}
+.vz-pp b{display:block;font-size:clamp(18px,1.9vw,23px);font-weight:800;margin-top:12px;line-height:1.15}
+.vz-pp p{font-size:15px;line-height:1.35;color:var(--grey);margin-top:6px}
+
+.vz-bal .vz-w1,.vz-bal .vz-w2{position:absolute;font-weight:800;font-size:clamp(14px,1.75vw,22px);white-space:nowrap;transform:translateX(-50%);line-height:1;color:var(--ink)}
+.vz-bal .vz-w1{left:19.6%;top:57%}.vz-bal .vz-w2{left:80.4%;top:37%}
+.vz-gh{margin-bottom:14px}
+.vz-gh .ws{font-size:clamp(24px,2.8vw,34px);font-weight:800;line-height:1.1}
+.vz-gh .ws i{display:inline-flex;align-items:center;justify-content:center;font-style:normal;color:#A5ABA8;box-shadow:inset 0 0 0 1.5px #C9CFCC;border-radius:6px;padding:0 .14em;margin:0 .07em;font-weight:700}
+.vz-gh span{font-size:15px;color:var(--grey)}
+.vz-gh span b{color:var(--mint-h);font-weight:800}
+
+.vz-ws{display:grid;grid-template-columns:28fr 18fr 19fr 35fr;width:100%;margin-top:6px;color:#fff;font-weight:800;font-size:clamp(14px,1.8vw,22px);line-height:1.2}
+.vz-ws .end{color:var(--yellow)}
+
+.vz-wh2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;max-width:760px;margin-inline:auto}
+@media (max-width:720px){
+.vz-wh2{grid-template-columns:minmax(0,1fr);gap:12px}
+.vz-2c,.vz-gl-in,.vz-droprow,.vz-cl,.vz-prs{grid-template-columns:minmax(0,1fr)}
+.vz-droprow .vz-mouth{width:130px;margin-inline:auto}
+.vz-dr{grid-template-columns:minmax(0,1fr);gap:4px}
+.vz-dr b{font-size:16px}
+.vz-buds{position:static;height:auto;display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.vz-buds span{position:static;font-size:15px;min-height:38px;padding:6px 14px}
+.vz-buds .th{max-width:none}
+.vz-cl{gap:12px}
+.vz-p{flex-direction:row;text-align:left;padding:16px;gap:16px}
+.vz-p svg,.vz-p.p1 svg,.vz-p.p2 svg,.vz-p.p3 svg{width:92px}
+.vz-p .tx{align-items:flex-start}
+.vz-p i{align-self:flex-start}
+.vz-prs{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.vz-pp{padding:14px 10px}
+.vz-pp p{font-size:13px}
+.vz-gl-in{justify-items:center;grid-template-columns:minmax(0,1fr)}
+.vz-gl-in .vz-tube{width:120px}
+.vz-grs{justify-self:stretch}
+.vz-gr .ru{margin-left:0;width:100%}
+.vz-gh .ws{font-size:clamp(22px,7vw,28px)}
+.vz-bt{font-size:clamp(14px,5vw,22px)}
+}
 </style>
 
 </head>
@@ -520,6 +623,22 @@ html.rm .st-cap,html.rm .st-ru{display:none}
         <p>Наклоняюсь к девушке. Говорю, извините, что такое napıyosun. Говорит, <span class="t" lang="tr">ne yapıyorsun</span>. Говорю, а почему вы сразу так не сказали.</p>
         <p class="punch">Говорит, я так и сказала.</p></article>
     </div>
+    <figure class="vz vz-dol" data-vz="dol"><div class="vz-c dk"><div class="vz-art">
+<svg viewBox="0 0 1120 430" aria-hidden="true">
+<rect x="0" y="376" width="1120" height="54" fill="#1C1D1D"/><g fill="#737776"><rect x="60" y="398" width="130" height="6" rx="3"/><rect x="300" y="398" width="130" height="6" rx="3"/><rect x="540" y="398" width="130" height="6" rx="3"/><rect x="780" y="398" width="130" height="6" rx="3"/></g>
+<g class="vzb"><rect x="280" y="108" width="520" height="26" rx="13" fill="#2FB584"/><rect x="80" y="128" width="960" height="250" rx="46" fill="#3ACA95"/><path d="M80 306h960v32a40 40 0 0 1-40 40H120a40 40 0 0 1-40-40z" fill="#2FB584"/>
+<g fill="#F7F8F7"><rect x="128" y="160" width="152" height="124" rx="20"/><rect x="292" y="160" width="152" height="124" rx="20"/><rect x="456" y="160" width="152" height="124" rx="20"/><rect x="722" y="160" width="152" height="124" rx="20"/><rect x="886" y="160" width="122" height="124" rx="20"/></g>
+<rect x="622" y="156" width="88" height="208" rx="14" fill="#E7EAE8"/><rect x="664" y="164" width="4" height="192" fill="#C9CFCC"/>
+<rect x="146" y="222" width="44" height="72" rx="10" fill="#C9CFCC"/><rect x="468" y="222" width="44" height="72" rx="10" fill="#C9CFCC"/><rect x="738" y="222" width="44" height="72" rx="10" fill="#C9CFCC"/>
+<!-- я с учебником --><circle cx="206" cy="218" r="27" fill="#F2D3BD"/><path d="M179 214c2-24 16-32 29-32s26 9 26 30c-9-11-30-14-55 2z" fill="#3F5668"/><path d="M160 284c2-30 20-42 46-42s44 12 46 42z" fill="#232323"/><path d="M178 262l30 8 30-8v22l-30 8-30-8z" fill="#F4C945"/><path d="M208 270v22" stroke="#232323" stroke-width="2.5"/>
+<!-- рядом девушка с телефоном --><path d="M496 262c-8-44 6-82 36-82s44 38 36 82z" fill="#232323"/><circle cx="532" cy="218" r="26" fill="#F2D3BD"/><path d="M506 212c6-20 18-28 28-28s22 9 24 28c-12-10-34-12-52 0z" fill="#232323"/><path d="M488 284c2-28 20-40 44-40s42 12 44 40z" fill="#F4C945"/><rect x="556" y="196" width="14" height="42" rx="4" fill="#3F5668" transform="rotate(12 563 217)"/><path d="M566 286c2-22 0-44-6-54" fill="none" stroke="#F4C945" stroke-width="14" stroke-linecap="round"/>
+<!-- сосед спит --><circle cx="798" cy="222" r="24" fill="#F2D3BD"/><path d="M774 218c2-18 14-26 25-26s22 8 23 24c-10-8-30-10-48 2z" fill="#B7BCB9"/><path d="M756 286c2-26 18-38 42-38s40 12 42 38z" fill="#3F5668"/>
+<!-- водитель --><circle cx="952" cy="218" r="23" fill="#F2D3BD"/><rect x="928" y="194" width="48" height="14" rx="7" fill="#3F5668"/><path d="M918 286c2-26 16-38 36-38s34 12 36 38z" fill="#232323"/><circle cx="1000" cy="262" r="20" fill="none" stroke="#3F5668" stroke-width="6"/>
+<rect x="1016" y="310" width="24" height="16" rx="6" fill="#F4C945"/><rect x="80" y="310" width="20" height="16" rx="6" fill="#F4C945"/></g>
+<g class="vzw" fill="#232323"><g class="vzw1"><circle cx="248" cy="378" r="44"/><circle cx="248" cy="378" r="18" fill="#E7EAE8"/><rect x="244" y="346" width="8" height="64" rx="4" fill="#737776"/></g><g class="vzw1"><circle cx="876" cy="378" r="44"/><circle cx="876" cy="378" r="18" fill="#E7EAE8"/><rect x="872" y="346" width="8" height="64" rx="4" fill="#737776"/></g></g>
+</svg>
+<div class="vz-buds"><span class="th">Думаю, кто такой Napı</span><span class="bu" lang="tr">napıyosun</span><span class="bu" lang="tr">geliyom</span><span class="bu" lang="tr">yapcam</span></div>
+</div></div></figure>
   </div>
 </section>
 <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" style="transform:scaleY(-1)"><path fill="#1C1D1D" d="M0 120V62C210 8 470-8 760 34c270 39 480 66 680 8v78z"/></svg>
@@ -529,6 +648,14 @@ html.rm .st-cap,html.rm .st-ru{display:none}
     <h2>Это не сленг. Это тот же турецкий на скорости</h2>
     <p class="lead">Слова те же. Смысл тот же. Просто часть букв не доехала до рта. <span class="hl">Листай вниз</span> и смотри, как это происходит.</p>
     <div class="stage " data-stage="{&quot;letters&quot;: [[&quot;n&quot;, &quot;a2&quot;, [0, 1, 2, 3]], [&quot;e&quot;, &quot;a2&quot;, [0]], [&quot; &quot;, &quot;a2&quot;, [0]], [&quot;y&quot;, &quot;r&quot;, [0]], [&quot;a&quot;, &quot;r&quot;, [0, 1, 2, 3]], [&quot;p&quot;, &quot;r&quot;, [0, 1, 2, 3]], [&quot;ı&quot;, &quot;a1&quot;, [0, 1, 2, 3]], [&quot;y&quot;, &quot;a1&quot;, [0, 1, 2, 3]], [&quot;o&quot;, &quot;a1&quot;, [0, 1, 2, 3]], [&quot;r&quot;, &quot;a1&quot;, [0, 1]], [&quot;s&quot;, &quot;a2&quot;, [0, 1, 2]], [&quot;u&quot;, &quot;a2&quot;, [0, 1, 2]], [&quot;n&quot;, &quot;a2&quot;, [0, 1, 2, 3]]], &quot;steps&quot;: [{&quot;say&quot;: &quot;ne yapıyorsun&quot;, &quot;ru&quot;: &quot;что ты делаешь&quot;, &quot;cap&quot;: &quot;Так пишет учебник. Два слова. Тринадцать знаков. Никто никуда не торопится.&quot;}, {&quot;say&quot;: &quot;napıyorsun&quot;, &quot;ru&quot;: &quot;что ты делаешь&quot;, &quot;cap&quot;: &quot;Ne прилипает к глаголу. E пропала. Y пропала. Пробел пропал. Никто не заметил.&quot;}, {&quot;say&quot;: &quot;napıyosun&quot;, &quot;ru&quot;: &quot;что делаешь&quot;, &quot;cap&quot;: &quot;R тоже ушла. Её никто не выгонял. Просто устала.&quot;}, {&quot;say&quot;: &quot;napıyon&quot;, &quot;ru&quot;: &quot;че делаешь&quot;, &quot;cap&quot;: &quot;А это уже для своих. Su ушло вслед за r. Было тринадцать знаков, стало семь.&quot;}]}"><div class="stage-in"><div class="dots"></div><div class="word" lang="tr"></div><div class="st-ru"><button class="say" data-say="ne yapıyorsun" aria-label="Послушать"><svg class="ic " aria-hidden="true"><use href="#i-sound"/></svg></button><span></span></div><div class="st-cap"></div><ul class="stlist"></ul></div></div>
+    <figure class="vz vz-drop" data-vz="drop"><div class="vz-c pa"><div class="vz-droprow"><div class="vz-rows">
+<div class="vz-dr"><div class="vz-grid"><span class="vz-lc a2" lang="tr">n</span><span class="vz-lc a2" lang="tr">e</span><span class="vz-lc a2" lang="tr"></span><span class="vz-lc r" lang="tr">y</span><span class="vz-lc r" lang="tr">a</span><span class="vz-lc r" lang="tr">p</span><span class="vz-lc a1" lang="tr">ı</span><span class="vz-lc a1" lang="tr">y</span><span class="vz-lc a1" lang="tr">o</span><span class="vz-lc a1" lang="tr">r</span><span class="vz-lc a2" lang="tr">s</span><span class="vz-lc a2" lang="tr">u</span><span class="vz-lc a2" lang="tr">n</span></div><b lang="tr">ne yapıyorsun</b></div>
+<div class="vz-dr"><div class="vz-grid"><span class="vz-lc a2" lang="tr">n</span><span class="vz-lc x" lang="tr">e</span><span class="vz-lc x" lang="tr"></span><span class="vz-lc x" lang="tr">y</span><span class="vz-lc r" lang="tr">a</span><span class="vz-lc r" lang="tr">p</span><span class="vz-lc a1" lang="tr">ı</span><span class="vz-lc a1" lang="tr">y</span><span class="vz-lc a1" lang="tr">o</span><span class="vz-lc a1" lang="tr">r</span><span class="vz-lc a2" lang="tr">s</span><span class="vz-lc a2" lang="tr">u</span><span class="vz-lc a2" lang="tr">n</span></div><b lang="tr">napıyorsun</b></div>
+<div class="vz-dr"><div class="vz-grid"><span class="vz-lc a2" lang="tr">n</span><span class="vz-lc x" lang="tr">e</span><span class="vz-lc x" lang="tr"></span><span class="vz-lc x" lang="tr">y</span><span class="vz-lc r" lang="tr">a</span><span class="vz-lc r" lang="tr">p</span><span class="vz-lc a1" lang="tr">ı</span><span class="vz-lc a1" lang="tr">y</span><span class="vz-lc a1" lang="tr">o</span><span class="vz-lc x" lang="tr">r</span><span class="vz-lc a2" lang="tr">s</span><span class="vz-lc a2" lang="tr">u</span><span class="vz-lc a2" lang="tr">n</span></div><b lang="tr">napıyosun</b></div>
+<div class="vz-dr"><div class="vz-grid"><span class="vz-lc a2" lang="tr">n</span><span class="vz-lc x" lang="tr">e</span><span class="vz-lc x" lang="tr"></span><span class="vz-lc x" lang="tr">y</span><span class="vz-lc r" lang="tr">a</span><span class="vz-lc r" lang="tr">p</span><span class="vz-lc a1" lang="tr">ı</span><span class="vz-lc a1" lang="tr">y</span><span class="vz-lc a1" lang="tr">o</span><span class="vz-lc x" lang="tr">r</span><span class="vz-lc x" lang="tr">s</span><span class="vz-lc x" lang="tr">u</span><span class="vz-lc a2" lang="tr">n</span></div><b lang="tr">napıyon</b></div>
+</div>
+<svg class="vz-mouth" viewBox="0 0 240 190" aria-hidden="true"><path d="M12 92C48 34 86 20 104 30c8 4 13 6 16 6s8-2 16-6c18-10 56 4 92 62-34 54-74 80-108 80S46 146 12 92z" fill="#3F5668"/><path d="M42 92c26 8 52 12 78 12s52-4 78-12c-16 26-46 46-78 46S58 118 42 92z" fill="#1C1D1D"/><path d="M58 96c20 4 41 6 62 6s42-2 62-6l-6 14H64z" fill="#fff"/><ellipse cx="120" cy="130" rx="30" ry="9" fill="#3ACA95"/></svg></div></div>
+<figcaption>Часть букв не доехала до рта. Было тринадцать знаков, стало семь.</figcaption></figure>
     <div class="board">
       <div class="stack"><button class="stk m" lang="tr" style="rotate:-6deg" data-w="napıyosun" data-f="ne yapıyorsun" data-r="что делаешь">napıyosun</button><button class="stk y" lang="tr" style="rotate:5deg" data-w="yapcam" data-f="yapacağım" data-r="я сделаю">yapcam</button><button class="stk d" lang="tr" style="rotate:-4deg" data-w="noldu" data-f="ne oldu" data-r="что случилось">noldu</button></div>
       <div class="bcard" id="bcard">
@@ -555,6 +682,11 @@ html.rm .st-cap,html.rm .st-ru{display:none}
       <button data-v='{"form":"Ne yapıyorsunuz?","note":"Врач, чиновник, старший. На вы и со всеми буквами.","say":"ne yapıyorsunuz"}'>Врач</button>
     </div></div>
     <div class="reg" id="reg"><button class="say" data-say="napıyosun" aria-label="Послушать"><svg class="ic " aria-hidden="true"><use href="#i-sound"/></svg></button><div><b data-f="form" lang="tr">Napıyosun?</b><span class="rnote" data-f="note">Подруга, брат, сосед по парте. Чем ближе человек, тем меньше букв.</span></div></div>
+    <figure class="vz vz-close" data-vz="close"><div class="vz-cl">
+<div class="vz-p p1"><svg viewBox="0 0 220 220" aria-hidden="true"><circle cx="110" cy="110" r="108" fill="currentColor"/><path d="M36 220c4-54 34-76 74-76s70 22 74 76z" fill="#F4C945"/><circle cx="110" cy="84" r="36" fill="#F2D3BD"/><path d="M74 84c0-36 16-50 38-50s36 16 36 48c-16-18-48-22-74 2z" fill="#232323"/><rect x="146" y="70" width="18" height="52" rx="5" fill="#3F5668" transform="rotate(10 155 96)"/></svg><div class="tx"><b lang="tr">Napıyosun?</b><span>Подруга</span><i style="width:60%"></i></div></div>
+<div class="vz-p p2"><svg viewBox="0 0 220 220" aria-hidden="true"><circle cx="110" cy="110" r="108" fill="currentColor"/><path d="M36 220c4-54 34-76 74-76s70 22 74 76z" fill="#3F5668"/><path d="M96 146l14 30 14-30z" fill="#fff"/><path d="M106 150h8l4 44-8 14-8-14z" fill="#F4C945"/><rect x="142" y="170" width="60" height="44" rx="6" fill="#E7EAE8" transform="rotate(-8 172 192)"/><circle cx="110" cy="84" r="36" fill="#F2D3BD"/><path d="M76 74c6-26 20-36 36-36s30 12 34 36c-20-12-50-14-70 0z" fill="#737776"/></svg><div class="tx"><b lang="tr">Ne yapıyorsun?</b><span>Коллега</span><i style="width:87%"></i></div></div>
+<div class="vz-p p3"><svg viewBox="0 0 220 220" aria-hidden="true"><circle cx="110" cy="110" r="108" fill="currentColor"/><path d="M36 220c4-54 34-76 74-76s70 22 74 76z" fill="#fff"/><path d="M94 146l16 26 16-26" fill="none" stroke="#C9CFCC" stroke-width="4"/><path d="M80 152c-6 26-4 42 12 52M140 152c6 26 4 42-12 52" fill="none" stroke="#232323" stroke-width="5" stroke-linecap="round"/><circle cx="110" cy="208" r="9" fill="#232323"/><circle cx="110" cy="84" r="36" fill="#F2D3BD"/><path d="M76 74c6-26 20-36 36-36s30 12 34 36c-20-12-50-14-70 0z" fill="#C9CFCC"/><rect x="88" y="78" width="16" height="10" rx="4" fill="none" stroke="#232323" stroke-width="3"/><rect x="118" y="78" width="16" height="10" rx="4" fill="none" stroke="#232323" stroke-width="3"/><path d="M104 83h14" stroke="#232323" stroke-width="3"/></svg><div class="tx"><b lang="tr">Ne yapıyorsunuz?</b><span>Врач</span><i style="width:100%"></i></div></div>
+</div><figcaption>Чем ближе человек, тем меньше букв.</figcaption></figure>
   </div>
 </section>
 
@@ -580,6 +712,16 @@ html.rm .st-cap,html.rm .st-ru{display:none}
       <div class="ex"><button class="say" data-say="Geliyodum, arabayı gördüm." aria-label="Послушать"><svg class="ic " aria-hidden="true"><use href="#i-sound"/></svg></button><div class="tx"><span class="tr" lang="tr"><span class="w" lang="tr"><b class="r">Gel</b><b class="a1">iyo</b><b class="a2">dum</b></span>, arabayı gördüm.</span><span class="ru">Шёл и увидел машину.</span></div></div>
       <div class="ex"><button class="say" data-say="Ne diyosun?" aria-label="Послушать"><svg class="ic " aria-hidden="true"><use href="#i-sound"/></svg></button><div class="tx"><span class="tr" lang="tr">Ne <span class="w" lang="tr"><b class="r">di</b><b class="a1">yo</b><b class="a2">sun</b></span>?</span><span class="ru">Что ты говоришь?</span></div></div>
     </div>
+    <figure class="vz vz-bridge" data-vz="bridge"><div class="vz-c vz-2c"><div class="vz-art vz-brart">
+<svg viewBox="0 0 700 360" aria-hidden="true"><rect y="278" width="700" height="82" rx="14" fill="#E4F7EF"/>
+<path d="M32 310c20-8 40-8 60 0s40 8 60 0M252 330c20-8 40-8 60 0s40 8 60 0M520 312c20-8 40-8 60 0s40 8 60 0" fill="none" stroke="#3ACA95" stroke-width="5" stroke-linecap="round"/>
+<path d="M0 214h96l-10 146H0z" fill="#3F5668"/><path d="M604 214h96v146H614z" fill="#3F5668"/><rect x="40" y="192" width="400" height="12" rx="3" fill="#232323"/><rect x="604" y="192" width="76" height="12" rx="3" fill="#232323"/>
+<g class="vz-pier"><rect x="254" y="204" width="46" height="110" fill="#F4C945"/><rect x="238" y="310" width="78" height="14" rx="4" fill="#232323"/></g></svg>
+<span class="vz-bt r " lang="tr" style="left:6.7%;top:33%">g</span><span class="vz-bt r " lang="tr" style="left:16.42%;top:33%">e</span><span class="vz-bt r " lang="tr" style="left:26.14%;top:33%">l</span><span class="vz-bt a1 strong " lang="tr" style="left:35.86%;top:33%">i</span><span class="vz-bt a1 " lang="tr" style="left:45.58%;top:33%">y</span><span class="vz-bt a1 " lang="tr" style="left:55.3%;top:33%">o</span><span class="vz-bt a2 " lang="tr" style="left:84.46%;top:33%">m</span>
+<span class="vz-bt a1 fall " lang="tr" style="left:66.02%;top:76%;rotate:-22deg">r</span><span class="vz-bt a2 fall " lang="tr" style="left:73.74%;top:70%;rotate:18deg">u</span>
+</div>
+<div class="vz-side"><div class="vz-forms"><span lang="tr">geliyorum</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg><b lang="tr">geliyom</b></div><p>R падает. U падает.</p><p class="hl">Буква i на месте: она связка, без неё корень не подойдёт к yo.</p></div>
+</div></figure>
     <h3 class="mt">Гласную перед yo выбирает корень</h3>
     <p class="lead" style="margin-top:8px">Смотрит на свою последнюю гласную и командует. А вот <span class="t" lang="tr">o</span> в <span class="t" lang="tr">yo</span> не меняется никогда. Упрямая.</p>
     <div class="harm" data-mode="4"><div class="switch"><button class="on" data-m="4">-iyo: 4 варианта</button><button data-m="2">-cam: 2 варианта</button></div><div class="chips"><button class="chip on" data-v="gel" lang="tr">gel</button><button class="chip" data-v="yap" lang="tr">yap</button><button class="chip" data-v="ol" lang="tr">ol</button><button class="chip" data-v="gör" lang="tr">gör</button><button class="chip" data-v="bil" lang="tr">bil</button><button class="chip" data-v="al" lang="tr">al</button><button class="chip" data-v="bul" lang="tr">bul</button><button class="chip" data-v="gül" lang="tr">gül</button></div><div class="hflow"><div class="hroot" lang="tr"></div><div class="harrow"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></div><div class="vows"></div></div><div class="hres"><button class="say" aria-label="Послушать"><svg class="ic " aria-hidden="true"><use href="#i-sound"/></svg></button><span lang="tr"></span></div><p class="hnote"></p></div>
@@ -600,6 +742,10 @@ html.rm .st-cap,html.rm .st-ru{display:none}
       <div class="ex"><button class="say" data-say="Noldu?" aria-label="Послушать"><svg class="ic " aria-hidden="true"><use href="#i-sound"/></svg></button><div class="tx"><span class="tr" lang="tr">Noldu?</span><span class="ru">Что случилось?</span></div></div>
       <div class="ex"><button class="say" data-say="Nolur, gel." aria-label="Послушать"><svg class="ic " aria-hidden="true"><use href="#i-sound"/></svg></button><div class="tx"><span class="tr" lang="tr">Nolur, gel.</span><span class="ru">Ну пожалуйста, приходи.</span></div></div>
     </div>
+    <figure class="vz vz-glue" data-vz="glue"><div class="vz-c vz-gl-in">
+<svg class="vz-tube" viewBox="0 0 220 220" aria-hidden="true"><g transform="rotate(32 110 110)"><path d="M72 18h76l14 112H58z" fill="#3ACA95"/><rect x="58" y="126" width="104" height="18" rx="6" fill="#2FB584"/><path d="M92 144h36l-6 42h-24z" fill="#F4C945"/><rect x="66" y="10" width="88" height="14" rx="5" fill="#232323"/><path d="M84 62h52M84 84h52" stroke="#fff" stroke-width="7" stroke-linecap="round"/></g><path class="vz-drip" d="M46 176c0-10 8-20 12-26 4 6 12 16 12 26a12 12 0 0 1-24 0z" fill="#F4C945"/></svg>
+<div class="vz-grs"><div class="vz-gr"><span class="tk a2" lang="tr">ne</span><span class="gl"></span><span class="tk r" lang="tr">yap</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg><b lang="tr">Napıyosun?</b><span class="ru">Что делаешь?</span></div><div class="vz-gr"><span class="tk a2" lang="tr">ne</span><span class="gl"></span><span class="tk r" lang="tr">ol</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg><b lang="tr">Noldu?</b><span class="ru">Что случилось?</span></div><div class="vz-gr no"><span class="tk a2" lang="tr">ne</span><span class="sp"><svg class="ic" aria-hidden="true"><use href="#i-close"/></svg></span><span class="tk r" lang="tr">zaman</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg><b lang="tr">Ne zaman?</b><span class="ru">Когда?</span></div></div>
+</div><figcaption>Только с yap и ol. Остальные слова ходят отдельно.</figcaption></figure>
     <p class="lead">Отвечать на napıyosun можно одним словом: <span class="t" lang="tr">hiç</span>. Ничего. Это честно и никого не волнует.</p>
 
     <div class="rule-h" style="margin-top:clamp(56px,8vw,96px)"><div class="num">03</div><div><h3>Будущее -acak сжимается сильнее всех</h3><p class="lead" style="margin-top:8px">Тут целый спектакль в семи актах.</p></div></div>
@@ -612,6 +758,12 @@ html.rm .st-cap,html.rm .st-ru{display:none}
       <div class="row"><button class="row-b" aria-expanded="false"><span class="who" lang="tr">siz</span><span class="bk"><span class="lab">В учебнике</span><span lang="tr">yapacaksınız</span></span><span class="lf"><span class="lab">В жизни</span><span class="w" lang="tr"><b class="r">yap</b><b class="a1">cak</b><b class="a2">sınız</b></span></span><svg class="ic chev" aria-hidden="true"><use href="#i-chev"/></svg></button><div class="row-d"><div><div class="ex"><button class="say" data-say="Siz ne yapcaksınız?" aria-label="Послушать"><svg class="ic " aria-hidden="true"><use href="#i-sound"/></svg></button><div class="tx"><span class="tr" lang="tr">Siz ne <span class="w" lang="tr"><b class="r">yap</b><b class="a1">cak</b><b class="a2">sınız</b></span>?</span><span class="ru">Вы что будете делать?</span></div></div></div></div></div>
       <div class="row"><button class="row-b" aria-expanded="false"><span class="who" lang="tr">onlar</span><span class="bk"><span class="lab">В учебнике</span><span lang="tr">yapacaklar</span></span><span class="lf"><span class="lab">В жизни</span><span class="w" lang="tr"><b class="r">yap</b><b class="a1">cak</b><b class="a2">lar</b></span></span><svg class="ic chev" aria-hidden="true"><use href="#i-chev"/></svg></button><div class="row-d"><div><div class="ex"><button class="say" data-say="Onlar gelcekler." aria-label="Послушать"><svg class="ic " aria-hidden="true"><use href="#i-sound"/></svg></button><div class="tx"><span class="tr" lang="tr">Onlar <span class="w" lang="tr"><b class="r">gel</b><b class="a1">cek</b><b class="a2">ler</b></span>.</span><span class="ru">Они придут.</span></div></div></div></div></div>
     </div>
+    <figure class="vz vz-press" data-vz="press"><div class="vz-prs">
+<div class="vz-pp"><svg viewBox="0 0 240 152" aria-hidden="true"><g fill="#232323"><rect x="26" y="4" width="188" height="16" rx="4"/><rect x="26" y="4" width="12" height="136"/><rect x="202" y="4" width="12" height="136"/><rect x="14" y="134" width="212" height="14" rx="4"/></g><rect x="112" y="20" width="16" height="10" fill="#737776" class="vz-rod"/><rect x="58" y="30" width="124" height="28" rx="6" fill="#3ACA95" class="vz-head"/><rect x="58" y="58" width="124" height="76" rx="4" fill="#F4C945" class="vz-block"/></svg><b lang="tr">yapacağım</b><p>K становится ğ. Это ещё учебник.</p></div>
+<div class="vz-pp"><svg viewBox="0 0 240 152" aria-hidden="true"><g fill="#232323"><rect x="26" y="4" width="188" height="16" rx="4"/><rect x="26" y="4" width="12" height="136"/><rect x="202" y="4" width="12" height="136"/><rect x="14" y="134" width="212" height="14" rx="4"/></g><rect x="112" y="20" width="16" height="30" fill="#737776" class="vz-rod"/><rect x="58" y="50" width="124" height="28" rx="6" fill="#3ACA95" class="vz-head"/><rect x="58" y="78" width="124" height="56" rx="4" fill="#F4C945" class="vz-block"/></svg><b lang="tr">yapacam</b><p>Ğ уходит, ı уходит за ней.</p></div>
+<div class="vz-pp"><svg viewBox="0 0 240 152" aria-hidden="true"><g fill="#232323"><rect x="26" y="4" width="188" height="16" rx="4"/><rect x="26" y="4" width="12" height="136"/><rect x="202" y="4" width="12" height="136"/><rect x="14" y="134" width="212" height="14" rx="4"/></g><rect x="112" y="20" width="16" height="50" fill="#737776" class="vz-rod"/><rect x="58" y="70" width="124" height="28" rx="6" fill="#3ACA95" class="vz-head"/><rect x="58" y="98" width="124" height="36" rx="4" fill="#F4C945" class="vz-block"/></svg><b lang="tr">yapıcam</b><p>Первая a слабеет и становится ı.</p></div>
+<div class="vz-pp"><svg viewBox="0 0 240 152" aria-hidden="true"><g fill="#232323"><rect x="26" y="4" width="188" height="16" rx="4"/><rect x="26" y="4" width="12" height="136"/><rect x="202" y="4" width="12" height="136"/><rect x="14" y="134" width="212" height="14" rx="4"/></g><rect x="112" y="20" width="16" height="68" fill="#737776" class="vz-rod"/><rect x="58" y="88" width="124" height="28" rx="6" fill="#3ACA95" class="vz-head"/><rect x="58" y="116" width="124" height="18" rx="4" fill="#F4C945" class="vz-block"/></svg><b lang="tr">yapcam</b><p>А кто спешит, выкидывает и её.</p></div>
+</div><figcaption>Было девять букв, стало шесть.</figcaption></figure>
     <h3 class="mt">Cam или cem решает гласная</h3>
     <p class="lead" style="margin-top:8px">Два варианта, как обычно. А в длинной форме появляется ещё одна гласная из четырёх: <span class="t" lang="tr">yapıcam</span>, <span class="t" lang="tr">gelicem</span>, <span class="t" lang="tr">olucam</span>, <span class="t" lang="tr">görücem</span>.</p>
     <div class="harm" data-mode="2"><div class="switch"><button data-m="4">-iyo: 4 варианта</button><button class="on" data-m="2">-cam: 2 варианта</button></div><div class="chips"><button class="chip on" data-v="gel" lang="tr">gel</button><button class="chip" data-v="yap" lang="tr">yap</button><button class="chip" data-v="ol" lang="tr">ol</button><button class="chip" data-v="gör" lang="tr">gör</button><button class="chip" data-v="bil" lang="tr">bil</button><button class="chip" data-v="al" lang="tr">al</button><button class="chip" data-v="bul" lang="tr">bul</button><button class="chip" data-v="gül" lang="tr">gül</button></div><div class="hflow"><div class="hroot" lang="tr"></div><div class="harrow"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></div><div class="vows"></div></div><div class="hres"><button class="say" aria-label="Послушать"><svg class="ic " aria-hidden="true"><use href="#i-sound"/></svg></button><span lang="tr"></span></div><p class="hnote"></p></div>
@@ -629,6 +781,15 @@ html.rm .st-cap,html.rm .st-ru{display:none}
       <div class="flip" role="button" tabindex="0" aria-label="Перевернуть карточку"><span class="flip-in"><span class="face f"><b lang="tr">nası</b><small><svg class="ic " aria-hidden="true"><use href="#i-turn"/></svg>переверни</small></span><span class="face b"><b lang="tr">nasıl</b><span>как</span><button class="say" data-say="nası" aria-label="Послушать"><svg class="ic " aria-hidden="true"><use href="#i-sound"/></svg></button></span></span></div><div class="flip" role="button" tabindex="0" aria-label="Перевернуть карточку"><span class="flip-in"><span class="face f"><b lang="tr">sora</b><small><svg class="ic " aria-hidden="true"><use href="#i-turn"/></svg>переверни</small></span><span class="face b"><b lang="tr">sonra</b><span>потом</span><button class="say" data-say="sora" aria-label="Послушать"><svg class="ic " aria-hidden="true"><use href="#i-sound"/></svg></button></span></span></div><div class="flip" role="button" tabindex="0" aria-label="Перевернуть карточку"><span class="flip-in"><span class="face f"><b lang="tr">saol</b><small><svg class="ic " aria-hidden="true"><use href="#i-turn"/></svg>переверни</small></span><span class="face b"><b lang="tr">sağ ol</b><span>спасибо</span><button class="say" data-say="saol" aria-label="Послушать"><svg class="ic " aria-hidden="true"><use href="#i-sound"/></svg></button></span></span></div><div class="flip" role="button" tabindex="0" aria-label="Перевернуть карточку"><span class="flip-in"><span class="face f"><b lang="tr">ööle</b><small><svg class="ic " aria-hidden="true"><use href="#i-turn"/></svg>переверни</small></span><span class="face b"><b lang="tr">öyle</b><span>так</span><button class="say" data-say="ööle" aria-label="Послушать"><svg class="ic " aria-hidden="true"><use href="#i-sound"/></svg></button></span></span></div>
     </div>
     <p class="lead">И отдельно буква <span class="t" lang="tr">ğ</span>. Она почти всегда молчит и только тянет соседнюю гласную: <span class="t" lang="tr">öğretmen</span> звучит как <span class="t" lang="tr">öretmen</span>, <span class="t" lang="tr">yağmur</span> как <span class="t" lang="tr">yamur</span>.</p>
+    <figure class="vz vz-diet" data-vz="diet"><div class="vz-c pa vz-2c"><div class="vz-art vz-bal">
+<svg viewBox="0 0 520 300" aria-hidden="true"><rect x="244" y="86" width="32" height="184" fill="#232323"/><path d="M186 286h148l-22-30H208z" fill="#232323"/><circle cx="260" cy="82" r="16" fill="#F4C945"/>
+<g class="vz-beam" transform="rotate(-9 260 82)"><rect x="96" y="74" width="328" height="14" rx="7" fill="#3F5668"/></g>
+<g class="vz-pan-l"><path d="M102 108L28 196M102 108l74 88" stroke="#737776" stroke-width="3"/><path d="M20 196h164a82 44 0 0 1-164 0z" fill="#3ACA95"/></g>
+<g class="vz-pan-r"><path d="M418 58l-74 78M418 58l74 78" stroke="#737776" stroke-width="3"/><path d="M336 136h164a82 44 0 0 1-164 0z" fill="#3ACA95"/></g></svg>
+<b class="vz-w1" lang="tr">değil mi</b><b class="vz-w2" lang="tr">di mi</b>
+</div>
+<div class="vz-side"><div class="vz-gh"><div class="ws" lang="tr">ö<i>ğ</i>retmen</div><span>звучит как <b lang="tr">öretmen</b></span></div><div class="vz-gh"><div class="ws" lang="tr">ya<i>ğ</i>mur</div><span>звучит как <b lang="tr">yamur</b></span></div><p class="hl">Она почти всегда молчит и только тянет соседнюю гласную.</p></div>
+</div></figure>
   </div>
 </section>
 
@@ -663,6 +824,14 @@ html.rm .st-cap,html.rm .st-ru{display:none}
       </div>
     </div>
     <p class="lead">Ben вообще не приедет. По окончанию и так ясно, кто идёт. Поэтому <span class="hl">слушай до конца фразы</span>. Главное там.</p>
+    <figure class="vz vz-punch" data-vz="punch"><div class="vz-c dk">
+<svg viewBox="0 0 1100 300" aria-hidden="true"><rect class="vz-bar" x="20" y="141" width="13" height="18" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="41" y="137" width="13" height="26" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="62" y="133" width="13" height="34" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="83" y="139" width="13" height="22" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="104" y="130" width="13" height="40" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="125" y="135" width="13" height="30" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="146" y="141" width="13" height="18" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="167" y="136" width="13" height="28" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="188" y="129" width="13" height="42" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="209" y="137" width="13" height="26" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="230" y="133" width="13" height="34" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="251" y="140" width="13" height="20" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="272" y="137" width="13" height="26" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="293" y="131" width="13" height="38" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="314" y="135" width="13" height="30" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="335" y="139" width="13" height="22" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="356" y="133" width="13" height="34" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="377" y="128" width="13" height="44" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="398" y="137" width="13" height="26" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="419" y="141" width="13" height="18" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="440" y="135" width="13" height="30" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="461" y="130" width="13" height="40" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="482" y="138" width="13" height="24" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="503" y="135" width="13" height="30" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="524" y="140" width="13" height="20" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="545" y="132" width="13" height="36" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="566" y="137" width="13" height="26" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="587" y="133" width="13" height="34" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="608" y="129" width="13" height="42" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="629" y="138" width="13" height="24" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="650" y="135" width="13" height="30" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="671" y="139" width="13" height="22" rx="6.5" fill="#3F5668"/><rect class="vz-bar" x="692" y="131" width="13" height="38" rx="6.5" fill="#3F5668"/><rect class="vz-bar hit" x="713" y="120" width="13" height="60" rx="6.5" fill="#F4C945"/><rect class="vz-bar hit" x="734" y="99" width="13" height="102" rx="6.5" fill="#F4C945"/><rect class="vz-bar hit" x="755" y="70" width="13" height="160" rx="6.5" fill="#F4C945"/><rect class="vz-bar hit" x="776" y="43" width="13" height="214" rx="6.5" fill="#F4C945"/><rect class="vz-bar hit" x="797" y="30" width="13" height="240" rx="6.5" fill="#F4C945"/><rect class="vz-bar hit" x="818" y="56" width="13" height="188" rx="6.5" fill="#F4C945"/><rect class="vz-bar hit" x="839" y="90" width="13" height="120" rx="6.5" fill="#F4C945"/>
+<g class="vz-ear"><path d="M1006 66c-36-4-66 22-66 58 0 24 10 40 22 54 12 16 12 34 26 48 18 16 46 8 54-12" fill="#F2D3BD"/><path d="M978 142c-6-30 22-48 42-34 16 12 8 36-12 46" fill="none" stroke="#C9926D" stroke-width="8" stroke-linecap="round"/></g>
+<g class="vz-glove"><path d="M870 96c-4-30 42-46 66-20 26 26 20 68-4 86-22 16-58 14-70-6z" fill="#3ACA95"/><path d="M880 152l-46 8 6-46z" fill="#2FB584"/><path d="M882 70c10-14 26-10 30 0" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/></g>
+<path class="vz-boom" d="M944 40l10 26 26-6-12 24 22 16-28 2-2 28-20-20-22 14 8-26-22-14 28-4z" fill="#F4C945"/>
+</svg>
+<div class="vz-ws" lang="tr"><span>Yarın</span><span>akşam</span><span>sana</span><span class="end">gelcem</span></div>
+</div><figcaption>Вся фраза идёт нормально, и на последней секунде тебе бьют по уху.</figcaption></figure>
   </div>
 </section>
 
@@ -678,6 +847,10 @@ html.rm .st-cap,html.rm .st-ru{display:none}
       <div class="err"><div class="err-w"><svg class="ic " aria-hidden="true"><use href="#i-cross"/></svg><span lang="tr">Her gün geli</span></div><div class="ans"><div><div class="err-r"><svg class="ic " aria-hidden="true"><use href="#i-check"/></svg><span lang="tr">Her gün gelir</span></div><p>R падает только в -iyor. В -ir она остаётся.</p></div></div><button class="btn line"><svg class="ic " aria-hidden="true"><use href="#i-turn"/></svg>Как надо</button></div>
       <div class="err"><div class="err-w"><svg class="ic " aria-hidden="true"><use href="#i-cross"/></svg><span lang="tr">Geliyom (в письме в деканат)</span></div><div class="ans"><div><div class="err-r"><svg class="ic " aria-hidden="true"><use href="#i-check"/></svg><span lang="tr">Geliyorum</span></div><p>Сжатые формы живут в речи и в чатах. В письме, на экзамене и в документах только полные.</p></div></div><button class="btn line"><svg class="ic " aria-hidden="true"><use href="#i-turn"/></svg>Как надо</button></div>
     </div>
+    <figure class="vz vz-where" data-vz="where"><div class="vz-wh2">
+<div class="vz-pp"><svg viewBox="0 0 260 170" aria-hidden="true"><rect x="84" y="6" width="92" height="160" rx="14" fill="#232323"/><rect x="92" y="18" width="76" height="136" rx="8" fill="#F7F8F7"/><rect class="vz-m1" x="100" y="36" width="50" height="18" rx="7" fill="#fff" stroke="#E7EAE8" stroke-width="2"/><rect class="vz-m2" x="118" y="64" width="42" height="18" rx="7" fill="#3ACA95"/><rect class="vz-m3" x="100" y="92" width="40" height="18" rx="7" fill="#fff" stroke="#E7EAE8" stroke-width="2"/><rect class="vz-m4" x="112" y="120" width="48" height="18" rx="7" fill="#3ACA95"/></svg><b lang="tr">Geliyom</b><p>В речи и в чатах</p></div>
+<div class="vz-pp"><svg viewBox="0 0 260 170" aria-hidden="true"><rect x="52" y="10" width="156" height="150" rx="6" fill="#F7F8F7" stroke="#E7EAE8" stroke-width="2"/><g fill="#C9CFCC"><rect x="70" y="30" width="96" height="8" rx="4"/><rect x="70" y="50" width="120" height="8" rx="4"/><rect x="70" y="70" width="120" height="8" rx="4"/><rect x="70" y="90" width="88" height="8" rx="4"/></g><g class="vz-st"><circle cx="158" cy="124" r="24" fill="none" stroke="#3F5668" stroke-width="5"/><circle cx="158" cy="124" r="14" fill="#3F5668"/></g></svg><b lang="tr">Geliyorum</b><p>В письме, на экзамене и в документах</p></div>
+</div><figcaption>Сжатые формы живут в речи и в чатах. В письме, на экзамене и в документах только полные.</figcaption></figure>
   </div>
 </section>
 
@@ -1087,6 +1260,24 @@ if(G){
 }
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',xInit);else xInit();
+
+function vzInit(){
+var RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(RM||!window.gsap||!window.ScrollTrigger)return;
+function on(name,fn){[].forEach.call(document.querySelectorAll('[data-vz="'+name+'"]'),function(el){
+  var q=function(s){return [].slice.call(el.querySelectorAll(s))};
+  fn(gsap.timeline({defaults:{ease:'power2.out'},scrollTrigger:{trigger:el,start:'top 78%',once:true}}),q,el);});}
+on('dol',function(t,q){t.from(q('.vzb'),{x:-70,duration:1.1,ease:'power3.out'}).from(q('.vzw1'),{rotation:-260,transformOrigin:'50% 50%',duration:1.1,ease:'power3.out'},0).from(q('.vz-buds span'),{scale:.6,y:14,stagger:.4,ease:'back.out(2)',duration:.5},.4);});
+on('drop',function(t,q){t.from(q('.vz-dr'),{y:14,duration:.5,stagger:.15}).from(q('.vz-lc.x'),{y:-20,rotation:-25,color:'#232323',duration:.55,stagger:.05,ease:'bounce.out'},.2).from(q('.vz-mouth'),{scale:.82,transformOrigin:'50% 50%',duration:.6,ease:'back.out(2)'},.3);});
+on('close',function(t,q){t.from(q('.vz-p'),{y:24,duration:.6,stagger:.14}).from(q('.vz-p i'),{scaleX:.2,duration:.6,stagger:.14},.2);});
+on('bridge',function(t,q){t.from(q('.fall'),{y:function(i,e){return i?-160:-150},rotation:0,duration:.9,stagger:.25,ease:'bounce.out'}).from(q('.vz-pier'),{y:30,transformOrigin:'50% 100%',duration:.5},0);});
+on('glue',function(t,q){t.from(q('.vz-tube'),{y:-20,rotation:-8,transformOrigin:'50% 50%',duration:.6,ease:'back.out(2)'}).from(q('.vz-gr .gl'),{scale:.25,duration:.4,stagger:.2,ease:'back.out(3)'},.2).from(q('.vz-gr .tk.r'),{x:18,duration:.4,stagger:.2},.2);});
+on('press',function(t,q){t.from(q('.vz-head'),{y:-14,duration:.7,stagger:.15,ease:'back.out(1.5)'}).from(q('.vz-block'),{scaleY:1.18,transformOrigin:'50% 100%',duration:.7,stagger:.15,ease:'back.out(1.5)'},0);});
+on('diet',function(t,q){t.from(q('.vz-beam'),{rotation:9,svgOrigin:'260 82',duration:1,ease:'elastic.out(1,.5)'}).from(q('.vz-pan-l'),{y:-58,duration:1,ease:'elastic.out(1,.5)'},0).from(q('.vz-w1'),{y:-46,duration:1,ease:'elastic.out(1,.5)'},0).from(q('.vz-pan-r'),{y:40,duration:1,ease:'elastic.out(1,.5)'},0).from(q('.vz-w2'),{y:32,duration:1,ease:'elastic.out(1,.5)'},0);});
+on('punch',function(t,q){t.from(q('.vz-bar'),{scaleY:.25,transformOrigin:'50% 50%',duration:.5,stagger:.018}).from(q('.vz-glove'),{x:-120,duration:.45,ease:'power4.in'},'-=.05').from(q('.vz-boom'),{scale:.2,transformOrigin:'50% 50%',duration:.3,ease:'back.out(3)'},'-=.02').from(q('.vz-ear'),{rotation:-6,transformOrigin:'50% 50%',duration:.5,ease:'elastic.out(1,.3)'},'-=.25');});
+on('where',function(t,q){t.from(q('.vz-m1,.vz-m2,.vz-m3,.vz-m4'),{x:function(i){return i%2?20:-20},duration:.45,stagger:.12,ease:'back.out(2)'}).from(q('.vz-st'),{scale:1.5,transformOrigin:'50% 50%',duration:.4,ease:'back.out(2)'},.3);});
+}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',vzInit);else vzInit();
 </script>
 
 </body>
